@@ -1,0 +1,20 @@
+---
+label: BlogPost
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: Title
+  config:
+    required: true
+- type: file
+  name: image
+  label: Image
+- type: textarea
+  name: blog
+  label: Blog
+  config:
+    required: true
+    wysiwyg: true
+    schema:
+      format: markdown
