@@ -18,3 +18,5 @@ fields:
     wysiwyg: true
     schema:
       format: markdown
+pages:
+- site/content/testkl.md
